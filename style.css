@@ -61,7 +61,7 @@
 /* Hero Section */
 
 .bgimg{
-  background-image: url("/images/boy.jpg");
+  background-image: url("images/boy.jpg");
   width: auto;
 	height: 640px;
   background-size: 100% 100%;
