@@ -1,0 +1,410 @@
+*{
+  margin: 0;
+  padding: 0%;
+  box-sizing: border-box;
+}
+/* .navbar-toggler:focus{
+	box-shadow: none;
+
+} */
+
+/* theme burton */
+.theme-button{
+  background-color: transparent;
+  color: rgb(255, 252, 252);
+  border: none; 
+}
+
+.dark{
+  background-color: black;
+  color: white;
+  .card-body{
+    background-color: black;
+  }
+  .card-background{
+    background-color: black;
+    color: white;
+  }
+  .skill{
+    background-color: black;
+    color: white;
+  }
+  .service-card{
+    background-color: black;
+    color: white;
+  }
+  .service-card:hover{
+
+  .service-head{
+    background-color: #8E44AD;
+    color: white;
+  }
+  }
+  .service-card:hover{
+    transform: translatey(-18px);
+    border:5px solid #8E44AD;
+    background-color:rgb(0, 0, 0);
+  }
+}
+.light{
+  background-color: white;
+  color: black;
+}
+.card-text-theme{
+  background-color: black;
+  color: white;
+}
+/* navbar */
+.navbar{
+	padding: 0;
+}
+/* Hero Section */
+
+.bgimg{
+  background-image: url("/images/boy.jpg");
+  width: auto;
+	height: 640px;
+  background-size: 100% 100%;
+	/* background-attachment: fixed; */
+  background-repeat: no-repeat;
+}
+
+.hearderset{
+	padding-top: 200px;
+	box-sizing: border-box;
+}
+.btn{
+  padding: 0.9rem 2.3rem;
+  border-radius: 5rem;
+  background-color:transparent;
+  margin-top: 6px;
+
+}
+.btn:hover{
+background-color: #0d6efd;
+  .download-logo{
+    rotate: 360deg;
+    transition: .5s;
+  }
+ 
+}
+/* About Section */
+.about-img {
+  margin-top: 80px;
+  height: 500px;
+	width: 400px;
+  filter: grayscale(100%);
+  transition: 1s;
+}
+.about-img:hover{
+  filter: grayscale(0%);
+}
+
+@media (max-width:675px) {
+  .about-img{
+    height: auto;
+    width: auto;
+  }
+  .btn{
+    margin-top: 6px;
+  }
+}
+.card-body{
+  border: none;
+}
+.card-title{
+  margin-top: 80px;
+}
+@media (max-width:675px) {
+  .card-title{
+    margin-top: 11px;
+    text-align: center;
+  }
+  .card{
+    margin: 10px 0px;
+  
+  }
+}
+/* Skill + About Section */
+.card-background {
+  background-color:rgb(227, 225, 225);
+  padding: 4px;
+/* border-radius: 15px; */
+}
+
+.d-flex{
+  padding: 5px;
+}
+.mx-auto-name{
+  width:12.5rem ;
+}
+
+.mx-auto-age{
+  width:12.5rem ;
+}
+.mx-auto-residance{
+  width:15rem ;
+}
+.mx-auto-email{
+  width:15.938rem ;
+}
+.mx-auto-phone{
+  width:16.063rem ;
+}
+.mx-auto-freelance{
+  width:17.313rem ;
+}
+ .skill{
+ border: 4px solid  #8200ff;
+ border-radius: 24px;
+}
+
+.skill-box{
+  height: 1rem;
+  width: 10rem;
+  margin-left: 44px;
+  border-radius: 44px;
+  background-color: #efefef;
+
+}
+.HTML-box-color{
+  height: 1rem;
+  width: 8rem;
+  background-color:#8200ff;
+  border-radius: 44px 0px 0px 44px;
+  /* position: absolute; */
+
+}
+.CSS-box-color{
+  height: 1rem;
+  width: 7rem;
+  background-color:#8200ff;
+  border-radius: 44px 0px 0px 44px;
+  /* position: absolute; */
+
+}
+.JavaScript-box-color{
+  height: 1rem;
+  width: 6.5rem;
+  background-color:#8200ff;
+  border-radius: 44px 0px 0px 44px;
+  /* position: absolute; */
+
+}
+.React-box-color{
+  height: 1rem;
+  width: 5rem;
+  background-color:#8200ff;
+  border-radius: 44px 0px 0px 44px;
+  /* position: absolute; */
+
+}
+@media (max-width:1100px) {
+  .skill-box{
+    margin-left: 0px;
+    width:8rem;
+  }
+  .HTML-box-color{
+    width: 7rem;
+  }
+  .CSS-box-color{
+    width: 6rem;
+  }
+  
+}
+@media (max-width:763px) {
+  .skill-box{
+    
+width: 10rem;
+margin-left: 88px;
+  }
+  
+}
+
+@media (max-width:1100px){
+  /* .mx-auto-name{
+    /* width: auto; */
+    /* max-width:; */
+
+  .mx-auto-age{
+    /* width: auto; */
+    max-width: 100px;
+  }
+  .mx-auto-residance{
+    /* width: auto; */
+    max-width: 144px;
+  }
+  /* .mx-auto-email{ */
+    /* width: auto; */
+    /* max-width: ;
+  } */
+  .mx-auto-phone{
+    /* width: auto; */
+    max-width: 144px;
+  }
+  .mx-auto-freelance{
+    /* width: auto; */
+    max-width: 144px;
+  }
+}
+/* Service section */
+.service-section{
+  margin-top: 444px;
+}
+
+
+.service-card{
+  border: none;
+  border-radius: 44px;
+  height: auto;
+  background-color:#F8F8F8;
+  transition: .2s;
+}
+.service-head{
+  
+  background-color: white;
+  /* height:188800px;  */
+  margin: 55px auto 30px;
+  width: 40%;
+  border:none; 
+  padding: 15px; 
+  color: #8200ff;
+  text-align: center;
+  transition: .2s;
+}
+.service-card:hover{
+
+  .service-head{
+    background-color: #8200ff;
+    color: white;
+    
+    
+  }
+  
+}
+.service-card:hover{
+  transform: translatey(-18px);
+  border:5px solid #8200ff;
+  background-color:white;
+}
+.portfolio-card {
+  position: relative;
+  width: auto;
+  height: 300px;
+  overflow: hidden;
+  border-radius: 34px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.portfolio-card:hover {
+  transform: scale(1.05);
+}
+
+.portfolio-card img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  overflow: hidden;
+  width: 100%;
+  height: 0;
+  transition: .5s ease;
+}
+
+.card:hover .overlay {
+  height: 100%;
+}
+
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 70%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.portfolio-head-card{
+  width: 20rem;
+  background-color:rgb(33, 0, 33);
+  border-radius: 14px;
+  padding: 15px;
+  color: whitesmoke;
+}
+
+/* my Resume css */
+/* .education-card{
+  height: auto;
+  border-radius: 34px;
+  overflow: hidden;
+  
+}
+.resume-circle{
+  height:1.875rem;
+  width: 1.875rem;
+  margin-left: 44px;
+  border-radius: 50%;
+  background-color: #efefef;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+.inside-circle{
+  text-align: center;
+  height: 10px;
+  width: 10px;
+  background-color:#8200ff;
+  border-radius: 50%;
+}
+
+.resume-head  {
+  display:flex;
+  flex-direction:row;
+
+}
+.resume-para{
+   margin-top: 4px;
+   margin-left:14px;
+   color: #8200ff;
+}
+.resume-sub-para{
+  margin-top: -17px;
+  color: black;
+}
+.resume-line{
+  margin-left: 1px;
+  margin-top: 19px;
+  /* margin-bottom: 197px; */
+  /* height: 300px;
+  width: 6px;
+  border: solid #8200ff;
+  border-radius: 44px;
+  background-color: #8200ff;
+}
+.education-detail{
+  height: auto;
+  width: 25rem;
+  border-radius: 14px;
+}
+
+@media (max-width:575px){
+  .education-detail{
+    height: auto;
+    width: auto;
+    border-radius: 14px;
+  }
+  .resume-line{
+    height:15rem;
+
+  }
+} */ 
