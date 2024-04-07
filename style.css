@@ -155,7 +155,7 @@ background-color: #0d6efd;
   width:17.313rem ;
 }
  .skill{
- border: 4px solid  #8200ff;
+ border: 4px solid  #8E44AD;
  border-radius: 24px;
 }
 
@@ -170,7 +170,7 @@ background-color: #0d6efd;
 .HTML-box-color{
   height: 1rem;
   width: 8rem;
-  background-color:#8200ff;
+  background-color:#8E44AD;
   border-radius: 44px 0px 0px 44px;
   /* position: absolute; */
 
@@ -178,7 +178,7 @@ background-color: #0d6efd;
 .CSS-box-color{
   height: 1rem;
   width: 7rem;
-  background-color:#8200ff;
+  background-color:#8E44AD;
   border-radius: 44px 0px 0px 44px;
   /* position: absolute; */
 
@@ -186,7 +186,7 @@ background-color: #0d6efd;
 .JavaScript-box-color{
   height: 1rem;
   width: 6.5rem;
-  background-color:#8200ff;
+  background-color:#8E44AD;
   border-radius: 44px 0px 0px 44px;
   /* position: absolute; */
 
@@ -194,7 +194,7 @@ background-color: #0d6efd;
 .React-box-color{
   height: 1rem;
   width: 5rem;
-  background-color:#8200ff;
+  background-color:#8E44AD;
   border-radius: 44px 0px 0px 44px;
   /* position: absolute; */
 
@@ -261,21 +261,28 @@ margin-left: 88px;
   transition: .2s;
 }
 .service-head{
-  
   background-color: white;
-  /* height:188800px;  */
+border-radius: 16px;
   margin: 55px auto 30px;
   width: 40%;
   border:none; 
   padding: 15px; 
-  color: #8200ff;
+  color: #8E44AD;
   text-align: center;
   transition: .2s;
 }
+@media screen and (min-width:768px){
+  .service-head{
+    width: 58%;
+  }
+
+}
+  
+
 .service-card:hover{
 
   .service-head{
-    background-color: #8200ff;
+    background-color:#8E44AD;
     color: white;
     
     
@@ -284,7 +291,7 @@ margin-left: 88px;
 }
 .service-card:hover{
   transform: translatey(-18px);
-  border:5px solid #8200ff;
+  border:5px solid #8E44AD;
   background-color:white;
 }
 .portfolio-card {
@@ -331,15 +338,60 @@ margin-left: 88px;
   left: 50%;
   transform: translate(-50%, -50%);
   text-align: center;
+ 
 }
-
+@media  (min-width:768px) and (max-width:993px){
+  .text {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    & h3{
+      font-size: 14px;
+    }
+  }
+}
 .portfolio-head-card{
   width: 20rem;
   background-color:rgb(33, 0, 33);
   border-radius: 14px;
-  padding: 15px;
+  padding: 10px;
   color: whitesmoke;
 }
+/* Footer Section */
+.social-menu{
+display: flex;
+flex-direction: row;
+justify-content: center;
+/* margin: 14px; */
+}
+
+.social-favicon{
+filter: grayscale(100%);
+transition: all .5s;
+}
+.social-favicon:hover{
+  filter: grayscale(0%);
+  rotate: 360deg;
+}
+
+.insta{
+  margin: 14px;
+}
+@media  (max-width:993px) {
+
+  .social-favicon{
+    filter: grayscale(0%);
+  }
+}
+  
+
+
+
+
 
 /* my Resume css */
 /* .education-card{
