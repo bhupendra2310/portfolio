@@ -381,6 +381,7 @@ transition: all .5s;
 .insta{
   margin: 14px;
 }
+
 @media  (max-width:993px) {
 
   .social-favicon{
