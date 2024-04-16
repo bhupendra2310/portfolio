@@ -290,7 +290,8 @@ border-radius: 16px;
   
 }
 .service-card:hover{
-  transform: translatey(-18px);
+  transition: .07s;
+  transform: translatey(-15px);
   border:5px solid #8E44AD;
   background-color:white;
 }
