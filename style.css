@@ -3,12 +3,6 @@
   padding: 0%;
   box-sizing: border-box;
 }
-/* .navbar-toggler:focus{
-	box-shadow: none;
-
-} */
-
-/* theme burton */
 .theme-button{
   background-color: transparent;
   color: rgb(255, 252, 252);
@@ -45,6 +39,26 @@
     border:5px solid #8E44AD;
     background-color:rgb(0, 0, 0);
   }
+/* Contact form */
+.contact-form-container {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow:0 0 3px;
+  width: 100%;
+  max-width: 500px;
+}
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #0e0d0d;
+  border-radius: 5px;
+  font-size: 16px;
+}
+.contact-form h2,label{
+  color: black;
+}
 }
 .light{
   background-color: white;
@@ -177,7 +191,7 @@ background-color: #0d6efd;
 }
 .CSS-box-color{
   height: 1rem;
-  width: 7rem;
+  width: 7.5rem;
   background-color:#8E44AD;
   border-radius: 44px 0px 0px 44px;
   /* position: absolute; */
@@ -191,9 +205,17 @@ background-color: #0d6efd;
   /* position: absolute; */
 
 }
-.React-box-color{
+.Bootstrap-box-color{
   height: 1rem;
-  width: 5rem;
+  width: 8.5rem;
+  background-color:#8E44AD;
+  border-radius: 44px 0px 0px 44px;
+  /* position: absolute; */
+
+}
+.My-sql-color{
+  height: 1rem;
+  width: 7.5rem;
   background-color:#8E44AD;
   border-radius: 44px 0px 0px 44px;
   /* position: absolute; */
@@ -394,71 +416,59 @@ transition: all .5s;
 
 
 
+/* Contact form */
 
-/* my Resume css */
-/* .education-card{
-  height: auto;
-  border-radius: 34px;
-  overflow: hidden;
-  
+.contact-form {
+  background-color: #f2f2f2;
+  height: 85vh;
 }
-.resume-circle{
-  height:1.875rem;
-  width: 1.875rem;
-  margin-left: 44px;
-  border-radius: 50%;
-  background-color: #efefef;
-  display: flex;
-  align-items: center;
-  justify-content: center;
 
+.contact-form-container {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow:0 0 3px;
+  width: 100%;
+  max-width: 500px;
 }
-.inside-circle{
+
+.contact-form h2 {
+  margin-bottom: 20px;
   text-align: center;
-  height: 10px;
-  width: 10px;
-  background-color:#8200ff;
-  border-radius: 50%;
 }
 
-.resume-head  {
-  display:flex;
-  flex-direction:row;
-
-}
-.resume-para{
-   margin-top: 4px;
-   margin-left:14px;
-   color: #8200ff;
-}
-.resume-sub-para{
-  margin-top: -17px;
-  color: black;
-}
-.resume-line{
-  margin-left: 1px;
-  margin-top: 19px;
-  /* margin-bottom: 197px; */
-  /* height: 300px;
-  width: 6px;
-  border: solid #8200ff;
-  border-radius: 44px;
-  background-color: #8200ff;
-}
-.education-detail{
-  height: auto;
-  width: 25rem;
-  border-radius: 14px;
+.form-group {
+  margin-bottom: 15px;
 }
 
-@media (max-width:575px){
-  .education-detail{
-    height: auto;
-    width: auto;
-    border-radius: 14px;
-  }
-  .resume-line{
-    height:15rem;
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
 
-  }
-} */ 
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.form-group button {
+  width: 19%;
+  padding: 10px;
+  background-color: #28a828;
+  border: none;
+  border-radius: 19px;
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.form-group button:hover {
+  background-color: #4cae4c;
+}
+ 
